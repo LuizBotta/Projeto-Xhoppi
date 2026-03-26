@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <script type="text/javascript" src="assets/script.js"></script>
+    <title>Xhopii</title>
+</head>
+<body>
+    <header>
+        <section class="logo"> <!--Aqui trabalhamos com a estilização da imagem da logo-->
+            <img src="img/logo.png">
+            <h1>Xhopii</h1>
+        </section>
+
+        <section class="nome-empresa"> <!--Aqui mexemos com o nome da logo-->
+            
+        </section>
+
+    </header>
+
+    <nav > <!--Lista de opções de menu-->
+        <section class="menu-horizontal">
+
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Cadastro Cliente</a></li>
+                <li><a href="">Cadastro Funcionário</a></li>
+                <li><a href="">Cadastro Produto</a></li>
+                <li><a href="">Ver Clientes</a></li>
+                <li><a href="">Ver Funcionários</a></li>
+                <li><a href="">Ver Produtos</a></li>
+            </ul>
+    </section>
+
+    </nav>
+
+    <section class="conteudo"> <!--página com o conteúdo-->
+        <section class="imagens-produtos"> <!--Bloco para trabalhar com imagens-->
+            <section class="produto-miniatura">
+                <img src="img/produto1.png" onclick="selecionarImgProduto(this)">
+                <img src="img/produto2.png" onclick="selecionarImgProduto(this)">
+                <img src="img/produto3.png" onclick="selecionarImgProduto(this)">
+                <img src="img/produto4.png" onclick="selecionarImgProduto(this)">
+                <img src="img/produto5.png" onclick="selecionarImgProduto(this)">
+            </section>
+            <section class="produto-principal">
+                <img id="imgPrincipal" src="img/produto1.png">
+            </section>
+        </section>
+
+        <section class="descricoes"> <!--Descricoes e detalhes dos produtos-->
+            <h1>Camisa Desenvolvedor Front-End CSS</h1>
+            <h2 id="precoProduto">R$56,90</h2>
+            <p id="qtdDisponivel">171 peças disponíveis</p>
+            <p>Modelos:</p>
+            <button class="botao" id="btnModeloPreto" onclick="mudarPreco(this)">Preto</button>
+            <button class="botao" id="btnModeloAzul" onclick="mudarPreco(this)">Azul</button>
+            <button class="botao" id="btnModeloVerde" onclick="mudarPreco(this)">Verde</button>
+            <button class="botao" id="btnModeloCinza" onclick="mudarPreco(this)">Cinza</button>
+            <button class="botao" id="btnModeloRosa" onclick="mudarPreco(this)">Rosa</button>
+
+            <p>Tamanhos:</p>
+            <button class="botao" id="btnTamanhoP">P</button>
+            <button class="botao" id="btnTamanhoM">M</button>
+            <button class="botao" id="btnTamanhoG">G</button>
+            <button class="botao" id="btnTamanhoGG">GG</button>
+            <p id="tamanhoSelecionado">Tamanho Selecionado: P</p>
+            <button id="botaoComprar">Comprar Agora</button>
+        </section>
+    </section>
+
+
+    </section>
+</body>
+</html>

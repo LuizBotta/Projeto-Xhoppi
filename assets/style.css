@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+header .logo{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(225, 96, 61);
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+header .logo img{
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+header .logo h1{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(215, 215, 215);
+}
+
+nav .menu-horizontal ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+nav .menu-horizontal ul li{
+    list-style: none;
+}
+nav .menu-horizontal ul li a{
+    font-size: 25px;
+    color: rgb(225, 96, 61);
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+nav .menu-horizontal ul li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(54, 54, 54);
+}
+.conteudo{
+    display: flex;
+    flex-direction: row;
+}
+.imagens-produtos{
+    display: flex;
+    margin-left: 15%;
+    margin-top: 50px;
+}
+.imagens-produtos .produto-miniatura{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.imagens-produtos .produto-miniatura img{
+    width: 90px;
+    height: 100px;
+}
+.descricoes{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.descricoes h2{
+    color: rgb(225, 96, 61);
+    margin-top: 20px;
+    font-size: 40px;
+}
+.descricoes p{
+    margin-top: 15px;
+}
+.descricoes button{
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(99, 99, 99, 0.507);
+    padding: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#botaoComprar{
+    background-color: rgb(225, 96, 61);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.descricoes button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(225, 96, 61);
+}
