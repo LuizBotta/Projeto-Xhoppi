@@ -4,99 +4,147 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-header .logo{
+footer{
     width: 100%;
-    height: 150px;
-    background-color: rgb(225, 96, 61);
+    height: 350px;
+    background-color: rgb(245, 245, 245);
+    padding: 35px;
+}
+footer .parte-superior{
     display: flex;
-    justify-content: flex-start;
-    align-items: end;
+    align-items:flex-start;
+    justify-content: center;
+    gap: 120px;
 }
-header .logo img{
-    width: 80px;
-    height: 80px;
-    padding: 0;
-    margin-left: 20px;
-    margin-bottom: 20px;
+
+footer .pagmentos{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
-header .logo h1{
-    color: rgb(255, 255, 255);
-    font-size: 80px;
+footer .pagamentos h1{
+    font-size: 16px;
+}    
+footer .pagamentos img{
+    width: 50;
+    height: 30px;
+    margin: 3px;
+}
+footer .redes-sociais h1{
+    font-size: 16px;
+}
+footer .redes-sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .redes-sociais .item{
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+}  
+footer .redes-sociais img{
+    widht: 20px;
+    height: 20px;
+}
+footer .loja-app{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .loja-app img{
+    width: 50px;
+    height: 20px;
+}
+footer .loja-app .qrcode img{
+    width: 50px;
+    height: 50px;
+}
+footer .loja-app h1{
+    font-size: 16px;
+}
+footer .atendimento-cliente{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+footer .atendimento-cliente h1{
+    font-size: 16px;
+}
+footer .atendimento-cliente p{
+    font-size: 13px;
+}
+footer .sobre-xhopii{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+footer .sobre-xhopii h1{
+    font-size: 16px;
+}
+footer .sobre-xhopii p{
+    font-size: 13px;
+}
+footer .rodape-direitos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+footer .rodape-direitos h3{
+    font-size: 16px;
+}
+footer .linha{
+  border-top: 1px solid #ccc;
+  margin: 20px auto;
+  width: 90%;
+}
+footer .inferior{
+    height: 50px;
+    margin-top: 80px;
 }
 nav{
     width: 100%;
-    height: 60px;
-    background-color: rgb(215, 215, 215);
+    height: 75px;
+    background-color: rgb(245, 245, 245);
 }
-
-nav .menu-horizontal ul{
+nav .conteudo{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 0;
-    padding: 0;
 }
-nav .menu-horizontal ul li{
-    list-style: none;
+nav .conteudo .ajuda{
+    margin-right: 20%;
 }
-nav .menu-horizontal ul li a{
-    font-size: 25px;
-    color: rgb(225, 96, 61);
-    text-align: center;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-}
-nav .menu-horizontal ul li a:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(54, 54, 54);
-}
-.conteudo{
+nav .logo-marca{
     display: flex;
     flex-direction: row;
-}
-.imagens-produtos{
-    display: flex;
-    margin-left: 15%;
-    margin-top: 50px;
-}
-.imagens-produtos .produto-miniatura{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-.imagens-produtos .produto-miniatura img{
-    width: 90px;
-    height: 100px;
-}
-.descricoes{
-    margin-top: 50px;
-    margin-left: 20px;
-}
-.descricoes h2{
-    color: rgb(225, 96, 61);
-    margin-top: 20px;
-    font-size: 40px;
-}
-.descricoes p{
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
     margin-top: 15px;
+    margin-left: 20%;
 }
-.descricoes button{
-    font-size: 15px;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgba(99, 99, 99, 0.507);
-    padding: 8px;
-    margin-left: 10px;
-    margin-top: 10px;
+nav .logo-marca h1{
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: rgb(251, 86, 48);
 }
-#botaoComprar{
-    background-color: rgb(225, 96, 61);
-    color: rgb(255, 255, 255);
-    padding: 15px;
-    margin-top: 15px;
-    margin-left: 10px;
+nav .conteudo .logo-marca p{
+    font-size: 22px;
+    margin-left: 15px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
 }
-.descricoes button:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(225, 96, 61);
+nav .logo-marca .imagem-logo img{
+    width: 50px;
+    height: 50px;
+}
+nav .conteudo p{
+    color:rgb(251, 86, 48);
+    font-size: 13px;
+}
+section{
+    background-color: rgb(251, 86, 48);
 }
