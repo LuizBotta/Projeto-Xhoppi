@@ -27,7 +27,7 @@ header .logo img{
 header .logo h1{
     color: rgb(255, 255, 255);
     font-size: 40px;
-    margin-top: 40px;
+    
 }
 
 header .sair{
@@ -133,3 +133,111 @@ nav .menu-horizontal ul li a:hover{
     display: flex;
     justify-content: space-between;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(245, 245, 245);
+    padding: 35px;
+}
+footer .parte-superior{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    gap: 120px;
+}
+
+footer .pagmentos{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+footer .pagamentos h1{
+    font-size: 16px;
+}    
+footer .pagamentos img{
+    width: 50;
+    height: 30px;
+    margin: 3px;
+}
+footer .redes-sociais h1{
+    font-size: 16px;
+}
+footer .redes-sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .redes-sociais .item{
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+}  
+footer .redes-sociais img{
+    widht: 20px;
+    height: 20px;
+}
+footer .loja-app{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .loja-app img{
+    width: 50px;
+    height: 20px;
+}
+footer .loja-app .qrcode img{
+    width: 50px;
+    height: 50px;
+}
+footer .loja-app h1{
+    font-size: 16px;
+}
+footer .atendimento-cliente{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+footer .atendimento-cliente h1{
+    font-size: 16px;
+}
+footer .atendimento-cliente p{
+    font-size: 13px;
+}
+footer .sobre-xhopii{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+footer .sobre-xhopii h1{
+    font-size: 16px;
+}
+footer .sobre-xhopii p{
+    font-size: 13px;
+}
+footer .rodape-direitos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+footer .rodape-direitos h3{
+    font-size: 16px;
+}
+footer .linha{
+  border-top: 1px solid #ccc;
+  margin: 20px auto;
+  width: 90%;
+}
+footer .inferior{
+    height: 50px;
+    margin-top: 80px;
+}
+
