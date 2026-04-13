@@ -27,6 +27,7 @@ header .logo img{
 header .logo h1{
     color: rgb(255, 255, 255);
     font-size: 40px;
+    margin-top: 40px;
     
 }
 
@@ -36,6 +37,7 @@ header .sair{
     margin-top: 10px;
     font-weight: bold;
 }
+
 nav{
     width: 100%;
     background-color: rgb(255, 132, 0);
@@ -64,39 +66,32 @@ nav .menu-horizontal ul li a:hover{
     background-color: rgb(255, 115, 0);
 }
 
-.carousel{
+.corpo-pagina{
+    background-color: lightgray;
+    width: 100%;
+    height: auto;
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
 }
 
-.carousel img{ 
-    margin-top: 50px;
-}
-
-.promocoes{
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-}
-
-.promocoes img{
-    width: 50%;
-}
-
-.descobertas{
+.produtos-escrito{
+    color: rgb(225, 96, 61);
+    margin-top: 30px;
+    font-size: 13px;
     text-align: center;
-    color: rgb(255, 115, 0);
-    margin-top: 25px;
-    font-size: 12px;
+}
+
+.fundo-produtos{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin-left: 10%;
 }
 
 .container_produtos{
     display: flex;
     justify-content: center;
-    width: 60%;
-    margin-left: 20%;
-    border-top: 2px solid rgb(255, 192, 203);
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
 }
 
 
@@ -104,12 +99,15 @@ nav .menu-horizontal ul li a:hover{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
+    width: 100%;
   
 
 }
 .produto{
     border: 1px solid rgb(211, 211, 211);
     margin-top: 10px;
+    width: 90%;
+    padding: 10px;
 
 }
 .produto img{
@@ -132,6 +130,38 @@ nav .menu-horizontal ul li a:hover{
 .descricao{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#fabricante {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+#descricao{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.fab{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.desc{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.fab, .desc p{
+    color: rgb(211, 211, 211);
+}
+
+.produto:hover{
+    border: 1px solid rgb(225, 96, 61);
 }
 
 footer{
@@ -234,4 +264,3 @@ footer .inferior{
     height: 50px;
     margin-top: 80px;
 }
-
