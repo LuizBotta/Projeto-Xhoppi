@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(245, 245, 245);
+    padding: 35px;
+}
+footer .parte-superior{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    gap: 120px;
+}
+
+footer .pagmentos{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+footer .pagamentos h1{
+    font-size: 16px;
+}    
+footer .pagamentos img{
+    width: 50;
+    height: 30px;
+    margin: 3px;
+}
+footer .redes-sociais h1{
+    font-size: 16px;
+}
+footer .redes-sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .redes-sociais .item{
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+}  
+footer .redes-sociais img{
+    width: 20px;
+    height: 20px;
+}
+footer .loja-app{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .loja-app img{
+    width: 50px;
+    height: 20px;
+}
+footer .loja-app .qrcode img{
+    width: 50px;
+    height: 50px;
+}
+footer .loja-app h1{
+    font-size: 16px;
+}
+footer .atendimento-cliente{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+footer .atendimento-cliente h1{
+    font-size: 16px;
+}
+footer .atendimento-cliente p{
+    font-size: 13px;
+}
+footer .sobre-xhopii{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+footer .sobre-xhopii h1{
+    font-size: 16px;
+}
+footer .sobre-xhopii p{
+    font-size: 13px;
+}
+footer .rodape-direitos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+footer .rodape-direitos h3{
+    font-size: 16px;
+}
+footer .linha{
+  border-top: 1px solid #ccc;
+  margin: 20px auto;
+  width: 90%;
+}
+footer .inferior{
+    height: 50px;
+    margin-top: 80px;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(245, 245, 245);
+}
+nav .conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .conteudo .ajuda{
+    margin-right: 20%;
+}
+nav .logo-marca{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+    margin-left: 20%;
+}
+nav .logo-marca h1{
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: rgb(251, 86, 48);
+}
+nav .conteudo .logo-marca p{
+    font-size: 22px;
+    margin-left: 15px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+}
+nav .logo-marca .imagem-logo img{
+    width: 50px;
+    height: 50px;
+}
+nav .conteudo p{
+    color:rgb(251, 86, 48);
+    font-size: 13px;
+}
+.corpo-pagina{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.central-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: 45%;
+    padding: 40px;
+    border-radius: 5px;
+    border: 3px solid rgb(211, 211, 211);
+}
+.icone-voltar img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.icone-voltar{
+    top: 15px;
+    left: 15px;
+    position: absolute;
+}
+
+
+.central-box .formularios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+    width: 100%;
+}
+.central-box .formularios h1{
+    font-size: 20px;
+}
+.central-box form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+form input{
+    height: 35px;
+    width: 100%;
+    border: 1px solid rgb(204, 204, 204);
+    font-size: 13px;
+    padding: 10px;
+}
+.central-box .formularios button{
+    font-size: 20px;
+    background-color: rgb(251, 86, 48);
+    color: rgb(245, 245, 245);
+    padding: 10px;
+}
+
+.divider {
+    width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #777;
+  margin: 20px 0;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+}
+
+.divider::before {
+  margin-right: 10px;
+}
+
+.divider::after {
+  margin-left: 10px;
+}
+.tipo-login{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.tipo-login button{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid  rgb(204, 204, 204);
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    font-size: 16px;
+}
+.tipo-login img{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+.opcao{
+    padding: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.cadastro{
+    padding: 10px;
+    margin-top: 20px;
+    color: rgb(211, 211, 211);
+}
+.cadastro a{
+    text-decoration: none;
+    color: rgb(251, 86, 48);
+}
+.cadastro a:hover{
+    color: rgb(233, 6, 6);
+}
