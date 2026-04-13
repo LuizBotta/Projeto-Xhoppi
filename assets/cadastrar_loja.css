@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+header .conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(225, 96, 61);
+}
+
+header .conteudo .logo{
+    display: flex;
+}
+
+header .logo img{
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+header .logo h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-top: 40px;
+    
+}
+
+header .sair{
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+nav{
+    width: 100%;
+    background-color: rgb(255, 132, 0);
+}
+
+nav .menu-horizontal ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+nav .menu-horizontal ul li{
+    list-style: none;
+}
+nav .menu-horizontal ul li a{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+nav .menu-horizontal ul li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 115, 0); 
+}
+
+.pagina-fundo{
+    background-color: lightgray;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.fundo-forms{
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+.formulario h2{
+    color: rgb(225, 96, 61);
+    margin-left: 20%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input{
+    width: 60%;
+    margin-top: 30px;
+    padding: 10px;
+    padding-left: 40px;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+.formulario h4{
+    color: rgb(225, 96, 61);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cadastrar{
+    background-color: rgb(225, 96, 61);
+    width: 60%;
+    margin-left: 20%;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.cadastrar p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+#escolher-arquivo{
+    border: 1px solid rgb(225, 96, 61);
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(225, 96, 61);
+}
+
+.selecionar-foto-conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(245, 245, 245);
+    padding: 35px;
+}
+footer .parte-superior{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    gap: 120px;
+}
+
+footer .pagmentos{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+footer .pagamentos h1{
+    font-size: 16px;
+}    
+footer .pagamentos img{
+    width: 50;
+    height: 30px;
+    margin: 3px;
+}
+footer .redes-sociais h1{
+    font-size: 16px;
+}
+footer .redes-sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .redes-sociais .item{
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+}  
+footer .redes-sociais img{
+    width:  20px;
+    height: 20px;
+}
+footer .loja-app{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .loja-app img{
+    width: 50px;
+    height: 20px;
+}
+footer .loja-app .qrcode img{
+    width: 50px;
+    height: 50px;
+}
+footer .loja-app h1{
+    font-size: 16px;
+}
+footer .atendimento-cliente{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+footer .atendimento-cliente h1{
+    font-size: 16px;
+}
+footer .atendimento-cliente p{
+    font-size: 13px;
+}
+footer .sobre-xhopii{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+footer .sobre-xhopii h1{
+    font-size: 16px;
+}
+footer .sobre-xhopii p{
+    font-size: 13px;
+}
+footer .rodape-direitos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+footer .rodape-direitos h3{
+    font-size: 16px;
+}
+footer .linha{
+  border-top: 1px solid #ccc;
+  margin: 20px auto;
+  width: 90%;
+}
+footer .inferior{
+    height: 50px;
+    margin-top: 80px;
+}
