@@ -30,12 +30,29 @@ header .logo h1{
     
 }
 
-header .sair{
+header .sair button{
     color: rgb(255, 255, 255);
     margin-right: 20px;
     margin-top: 10px;
     font-weight: bold;
 }
+
+header .sair button{
+    background-color: rgb(225, 96, 61);
+    border: 1px solid rgb(225, 96, 61);
+    padding: 5px;
+}
+
+header .sair button:hover{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 nav{
     width: 100%;
     background-color: rgb(255, 132, 0);
