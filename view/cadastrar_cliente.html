@@ -46,10 +46,12 @@
                 <input type="email" placeholder="E-mail" name="email">
                 <input type="password" placeholder="Senha" name="senha">
             </form>
-            <h4>Selecionar foto do perfil:</h4>
-            <section class="selecionar-foto-conteudo">
-                <p id="escolher-arquivo">Escolher Arquivo</p>
-                <p>Nenhum arquivo escolhido</p>
+            <section class="arquivo">
+                <form >
+                    <label for="file-upload" class="custom-file-upload">Escolher Arquivo</label>
+                    <input id="file-upload" type="file" style="display:none;" name="arquivo"/>
+                </form>
+                <section id="file-name">Nenhum arquivo escolhido</section>
             </section>
             <section class="cadastrar">
                 <p>CADASTRAR</p>

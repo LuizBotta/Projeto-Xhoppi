@@ -87,6 +87,41 @@ nav .menu-horizontal ul li a:hover{
     color: rgb(225, 96, 61);
     margin-left: 20%;
 }
+.dados-funcionario{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    gap: 20px;
+}
+.dados-funcionario img{
+    height: 100px;
+    width: 100px;
+}
+.dados-funcionario .descricao{
+    text-align: justify;
+}
+.dados-funcionario .descricao h1{
+    font-size: 20px;
+    color: rgb(225, 96, 61);
+}
+.dados-funcionario .descricao p{
+    font-size: 18px;
+    color: rgb(211, 211, 211);
+}
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.navegacao button {
+    font-size: 20px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
 
 form{
     display: flex;
@@ -94,13 +129,7 @@ form{
     align-items: center;
 }
 
-form input{
-    width: 60%;
-    margin-top: 30px;
-    padding: 10px;
-    padding-left: 40px;
-    border: 1px solid rgb(211, 211, 211);
-}
+
 
 .formulario h4{
     color: rgb(225, 96, 61);
@@ -113,7 +142,7 @@ form input{
     width: 60%;
     margin-left: 20%;
     padding: 10px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .cadastrar p{
@@ -121,6 +150,7 @@ form input{
     color: rgb(255, 255, 255);
 
 }
+
 
 .arquivo{
     margin-top: 10px;
@@ -147,6 +177,7 @@ form input{
     margin-left: 10px;
     font-size: 14px;
 }
+
 
 footer{
     width: 100%;
